@@ -1,4 +1,4 @@
-(in-package :libc-misc)
+(in-package :net.mwatters.libc-misc)
 
 
 (defmacro with-foreign-object ((var type &optional (count 1) (zero-memory-p 't)) &body forms
