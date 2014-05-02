@@ -15,7 +15,7 @@
 
 (defun get-resource-limit (which)
   "Return the current resource limit value for WHICH, an
-RLIMIT-RESOURCE-TYPE keyword \(e.g., :FILE-DESCRIPTORS).  Returns as
+RLIMIT-RESOURCE-TYPE keyword \(e.g., :FILE-DESCRIPTORS\).  Returns as
 two values the current soft and hard limit values \(either integers or
 :INFINITY\)."
   (with-foreign-object (rlimit '(:struct rlimit))
